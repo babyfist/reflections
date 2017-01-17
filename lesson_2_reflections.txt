@@ -2,14 +2,18 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+It is where uncommited but working files sit. while the repository is the final directoy and the work station is your personal files of the git.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+you can use git diff to compare the items in the staging area to the repository or the working directory to assure that the changes you made are correct and only those changes.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+
 How do the diagrams help you visualize the branch structure?
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
